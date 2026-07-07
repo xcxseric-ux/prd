@@ -1,8 +1,10 @@
-# PRD Skill — Stage 3 Executable PRDs for Claude Code
+# PRD Skill — Stage 3 Executable PRDs for AI Coding Agents
 
-A Claude Code skill that produces **machine-executable PRDs** — every user story carries
+A skill for AI coding assistants that produces **machine-executable PRDs** — every user story carries
 `files_to_touch`, `commands_to_run`, `done_when`, and `verification` blocks so AI agents
 can read, implement, and verify without human interpretation.
+
+Works with Claude Code / Cursor / Codex CLI / Windsurf / OpenCode and similar tools.
 
 ## What makes this different
 
@@ -30,8 +32,14 @@ no human needed to explain "how do I verify this?"
 ## Quick start
 
 ```bash
-# Clone into any Claude Code project
+# Claude Code
 git clone https://github.com/xcxseric-ux/prd.git .claude/skills/prd
+
+# Cursor
+git clone https://github.com/xcxseric-ux/prd.git .cursor/skills/prd
+
+# Codex CLI / OpenCode / Windsurf
+git clone https://github.com/xcxseric-ux/prd.git .agents/skills/prd
 ```
 
 ```bash

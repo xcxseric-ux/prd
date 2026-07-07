@@ -1,6 +1,8 @@
-# PRD Skill — Stage 3 可执行 PRD，给 Claude Code 用
+# PRD Skill — Stage 3 可执行 PRD，给 AI Coding Agent 用
 
-一个 Claude Code 技能，产出**机器可执行的 PRD**——每条用户故事自带 `files_to_touch`、`commands_to_run`、`done_when`、`verification` 块，AI agent 可以不经人类解释直接读取、实现、验证。
+一个 AI 编码助手的技能，产出**机器可执行的 PRD**——每条用户故事自带 `files_to_touch`、`commands_to_run`、`done_when`、`verification` 块，AI agent 可以不经人类解释直接读取、实现、验证。
+
+支持 Claude Code / Cursor / Codex CLI / Windsurf / OpenCode 等主流 AI 编码工具。
 
 ## 为什么不一样
 
@@ -27,8 +29,14 @@ agent_story:
 ## 快速开始
 
 ```bash
-# 克隆到任意 Claude Code 项目
+# Claude Code
 git clone https://github.com/xcxseric-ux/prd.git .claude/skills/prd
+
+# Cursor
+git clone https://github.com/xcxseric-ux/prd.git .cursor/skills/prd
+
+# Codex CLI / OpenCode / Windsurf
+git clone https://github.com/xcxseric-ux/prd.git .agents/skills/prd
 ```
 
 ```bash
