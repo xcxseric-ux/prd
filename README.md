@@ -1,4 +1,4 @@
-# PRD Skill — Stage 3 Executable PRDs for AI Coding Agents
+# PRD Skill — Executable PRDs for AI Coding Agents
 
 A skill for AI coding assistants that produces **machine-executable PRDs** — every user story carries
 `files_to_touch`, `commands_to_run`, `done_when`, and `verification` blocks so AI agents
